@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Cadastro responsivo</title>
+</head>
+
+
+
+<body>
+        <div class="formbox">
+            <h1>Criar conta</h1>
+
+
+ <form>
+<div class="inputgroup">
+    <label for="nome">Nome Completo</label>
+    <input type="text" id="nome" placeholder="Insira o seu nome" required>
+
+    <label for="email">E-mail</label>
+    <input type="email" id="email" placeholder="Insira o seu email" required>
+
+    <label for="telefone">Telefone</label>
+    <input type="tel" id="telefone" placeholder="Insira o seu telefone">
+
+    <label for="telefone">Telefone alternativo</label>
+    <input type="tel" id="telefone" placeholder="Insira o seu telefone">
+    </div>
+
+
+<div class="data">
+    <div class="data">
+    <label for="date">Data de nascimento</label>
+    <input type="date" id="date" placeholder="Insira sua data de nascimento" required>
+    </div>
+    </div>
+
+
+<div class="genero">
+    <label for="genero">Genero</label>
+    <select>
+    <option value="#">Selecionar</option>
+    <option value="Masculino">Masculino</option>
+    <option value="Femenino">Femenino</option>
+    <option value="Outro">Outro</option>
+    <option value="PND">Prefiro nao dizer</option>
+    </select> 
+</div>
+
+
+
+
+ <div class="inputgroup senha">
+     <label for="senha">Senha</label>
+     <input type="password" id="senha" placeholder="Digite a nova senha" required>
+    
+  <label for="confirmarsenha">Confirme senha</label>
+<input type="password" id="confirmarSenha" placeholder="Confirme a nova senha" required>
+ </div>
+
+          
+<div class="button">
+    <br> <br>
+          <button onclick="cad()">Cadastrar</button>
+            </div>  
+
+            </form>
+
+</body>
+</html>

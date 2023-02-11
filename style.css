@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: poppins;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.formbox{
+background-color: rgba(255,255,255,0.4);
+backdrop-filter: blur (40px);
+padding: 30px 40px;
+width: 50%;
+border-radius: 20px;
+}
+
+.formbox form{
+    margin: 20px 0;
+}
+
+ .formbox h1{
+    font size: 120px;
+}
+
+form .inputgroup{
+    margin-bottom: 15px;
+}
+
+form .inputgroup  label{
+    color: rgb(71, 68, 66);
+    font-weight: bold;
+    font-size: large;
+    display: block;
+}
+
+form .inputgroup input{
+  width: 80%;
+  height: 35px;
+  background-color: rgba(255,255,255,0.32);
+  outline: none;
+  border: 2px solid transparent;
+  border-radius: 9px;
+  padding: 20px;
+  font-size: 14px;
+  color:#616161;
+  transition:all 0.8s ease;
+}
+
+form .inputgroup input:focus{
+    border-color: #ff008a;
+}
+
+
+form .data  label{
+    color: rgb(71, 68, 66);
+    font-weight: bold;
+    font-size: large;
+    display: block;
+}
+
+form .data input{
+    background-color: rgba(255,255,255,0.32);
+    height: 32px;
+    padding: 12px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    color: #616161;
+    margin: 12px;
+}
+
+form .genero  label{
+    color: rgb(71, 68, 66);
+    font-weight: bold;
+    font-size: large;
+    display: block;
+}
+
+form .genero select{
+    background-color:  rgba(255,255,255,0.32);
+    padding: 4px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    color: rgb(20, 20, 20);
+}
+
+form .genero select:focus{
+    background-color: rgb(178, 178, 211);
+}
+
+form .genero option{
+    background-color: black;
+    color: aliceblue;
+}
+
+.senha{
+    width: 55%;
+}
+
+form .button button{
+    width: 100px;
+    height: 37px;
+    background-color: #ff00b3;
+    border-radius: 15px;
+    outline: none;
+    border:none;
+  margin-right: 10px;
+    color:rgb(255, 255, 255);
+    cursor:pointer;
+    font-size:16px;
+  
+}
+
+ 
+    /*Responsive */
+    
+    @media(max-width:700px){
+        .formbox{
+            width: 80%;
+            border-radius: 20px;
+        }
+
+        
+form .inputgroup input{
+    width: 80%;
+}
+
+
+        .senha{
+            width: 80%;
+            padding:0;
+        }
+      
+    }
+
+  
